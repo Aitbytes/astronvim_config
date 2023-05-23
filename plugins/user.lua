@@ -9,4 +9,17 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    'folke/tokyonight.nvim'
+    ,
+    event = "VeryLazy"
+  },
+  {
+    "oncomouse/lushwal.nvim",
+    cmd = { "LushwalCompile" },
+    dependencies = {
+      { "rktjmp/lush.nvim" },
+      { "rktjmp/shipwright.nvim" },
+    }
+  }
 }
