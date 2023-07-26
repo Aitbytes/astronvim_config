@@ -21,5 +21,22 @@ return {
       { "rktjmp/lush.nvim" },
       { "rktjmp/shipwright.nvim" },
     }
+  },
+  {
+    "lunarvim/darkplus.nvim",
+    event = "VeryLazy"
+  },
+  {
+    "leafOfTree/vim-svelte-plugin",
+    event = "VeryLazy"
+  },
+  {
+    "ellisonleao/glow.nvim",
+    cmd = "Glow",
+    config = function() require("glow").setup() end
+  },
+  {
+    "rafamadriz/friendly-snippets",
+    event = "VeryLazy"
   }
 }
