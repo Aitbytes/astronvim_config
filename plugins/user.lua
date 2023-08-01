@@ -27,6 +27,10 @@ return {
     event = "VeryLazy"
   },
   {
+    "rmehri01/onenord.nvim",
+    event = "VeryLazy"
+  },
+  {
     "leafOfTree/vim-svelte-plugin",
     event = "VeryLazy"
   },
